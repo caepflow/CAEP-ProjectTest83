@@ -1,25 +1,25 @@
 id: 940539da-1b36-4a03-99f7-1f61b0142757
 type: entity
 annotations:
-- namespace: c4modeler
-  name: position
-  value:
-    441b3c75-030a-49cb-8f41-d57c0a6151e5:
-      x: 137.5
-      y: 67.5
+  - namespace: c4modeler
+    name: position
+    value:
+      441b3c75-030a-49cb-8f41-d57c0a6151e5:
+        x: 137.5
+        y: 67.5
 entityType: domain
-name: NewEntity
+name: Product
 fields:
-- type: string
-  description: New Field
-  isPublic: true
-  enumerable: true
-  name: name
-- type: NewEntityEnum
-  description: New Field
-  isPublic: true
-  enumerable: true
-  name: type
+  - type: string
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: name
+  - type: ProductType
+    description: New Field
+    isPublic: true
+    enumerable: true
+    name: type
 description: Entity
 associations: []
 useRepository: true
